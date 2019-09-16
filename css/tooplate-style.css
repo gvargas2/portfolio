@@ -880,9 +880,41 @@ pre{
 
 
 /*PROYECTO 1*/
-.truesis-img-portada {
-  background-image: url("../images/project/16-compressor.jpg");
+#truesis {
+  background-image: url("../images/project/banner1.jpg");
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 30vh;
+  padding: 20px 0;
+}
+
+.requerimiento, .especificaciones {
+  margin-bottom: 5rem;
+}
+
+.timeline-info-proyectos {
+  max-width: 100%!important;
+}
+
+.hero-bkg-animated {
+  font-family: "Six Caps";
+  background-color: #ea3f52;
+  height: 50px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: Six Caps;
+}
+
+.rosaoscuro {
+  color: #ea3f52;
+  letter-spacing: 4px;
+}
+
+.separacion-2rem {
+  margin-bottom: 2rem;
+}
+
+.mt-4 {
+  margin-top: 4rem!important;
 }
