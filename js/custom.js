@@ -6,6 +6,10 @@
     $('.color-mode').click(function(){
         $('.color-mode-icon').toggleClass('active')
         $('body').toggleClass('dark-mode')
+        $('p').toggleClass('dark-modes')
+        $('.bar').toggleClass('bar-dark');
+
+  
     })
 
     // HEADER
@@ -25,12 +29,13 @@
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 49
-        }, 1000);
+        }, 800);
         event.preventDefault();
       });
     });  
 
     // TOOLTIP
     $('.social-links a').tooltip();
+
 
 })(jQuery);

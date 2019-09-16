@@ -6,7 +6,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> Gabriela Vargas | Front-End Developer</title>
+    <title>Gabriela Vargas | Front-End Developer</title>
+
+    <link rel="icon" href="images/project/logo.png" type="image/png">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unicons.css">
@@ -17,6 +19,8 @@
     <link rel="stylesheet" href="css/tooplate-style.css">
     <!-- GOOGLEFONTS -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,400,900&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
   </head>
   <body>
@@ -24,7 +28,7 @@
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><i class='uil uil-bolt'></i> GV</a>
+            <a class="navbar-brand" href="index.html"><i class="fas fa-female"></i></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,13 +40,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="Sobre mí">Sobre mí</span></a>
+                        <a href="#about" class="nav-link"><span data-hover="Conóceme">Sobre mí</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Proyectos">Proyectos</span></a>
+                        <a href="#project" class="nav-link"><span data-hover="Experiencia">Proyectos</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Experiecia y Educación">Experiencia y Educación</span></a>
+                        <a href="#resume" class="nav-link"><span data-hover="Formación">Currículum</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#skills" class="nav-link"><span data-hover="Skills">Skills</span></a>
@@ -67,7 +71,7 @@
 
                 <div class="col-lg-12 col-md-12 col-12 d-flex align-items-center div_about_nuevo">
                     <div class="about-text text-center">
-                        <small class="small-text">Bienvenido a Portafolio de <span class="mobile-block">Gabriela Vargas</span></small>
+                        <small class="small-text">Bienvenidos al Portafolio de <span class="mobile-block">Gabriela Vargas</span></small>
                         <h1 class="animated animated-text">
                             <span class="mr-2">¡Hola! soy</span>
                                 <div class="animated-info">
@@ -77,14 +81,15 @@
                                 </div>
                         </h1>
 
-                        <p class="about_resumen">La versatilidad y perserverancia me definen. La programación es mi pasión y la actuación mi motor creativo.</p>
-
+                        <p class="about_resumen">La versatilidad y perserverancia me definen. <br>El teatro potenció mi creatividad y la programación se transformó en mi pasión.</p>
+                        
                         <div class="scroll_down">
                           <section id="section06" class="demo">
-                            <a href="#section07"><span></span>Ver más</a>
+                            <a id="ver_mas" href="#project"><span class="visible"></span>Ver más</a>
                           </section>
+                          
                         </div>
-
+                      
                     </div>
                 </div>
 
@@ -101,32 +106,73 @@
 
                       <div class="col-lg-8 mx-auto">
                         <h2>Proyectos</h2>
-                        <p>A lo largo de este año he trabajado en los siguientes proyectos</p>
+                        <p>A lo largo de este primer año he trabajado en los siguientes proyectos</p>
                       </div>
 
                       <div class="owl-carousel owl-theme">
                         <div class="item">
                           <div class="project-info">
-                            <a href="http://www.google.cl" target="blank_"><img src="images/project/proyecto_truesis1.png" href="www.google.cl" class="img-fluid" alt="project image">
-                            </a>
+                            <div class="overlay-image">
+                              <a href="proyecto1.html" target="blank_">
+                                <img src="images/project/proyecto_truesis1.png" class="img-fluid image" alt="project image">
+                                <div class="normal">
+                                  <div class="text"></div>
+                                </div>
+                                <div class="hover">
+                                  <div class="text">
+                                    Ver más
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="item">
+                          <div class="project-info">
+                            <div class="overlay-image">
+                              <a href="http://www.google.cl" target="blank_">
+                                <img src="images/project/proyecto_icov2.png" href="www.google.cl" class="img-fluid image" alt="project image">
+                                <div class="normal">
+                                  <div class="text"></div>
+                                </div>
+                                <div class="hover">
+                                  <div class="text">Ver más</div>
+                                </div>
+                              </a>
+                            </div>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
-                            <img src="images/project/proyecto_icov1.png" class="img-fluid" alt="project image">
+                            <div class="overlay-image">
+                              <a href="http://www.google.cl" target="blank_">
+                                <img src="images/project/proyecto_reserva2.png" class="img-fluid image" alt="project image">
+                                <div class="normal">
+                                  <div class="text"></div>
+                                </div>
+                                <div class="hover">
+                                  <div class="text">Ver más</div>
+                                </div>
+                              </a>
+                            </div>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
-                            <img src="images/project/proyecto_reserva1.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/proyecto_noqueria1.png" class="img-fluid" alt="project image">
+                            <div class="overlay-image">
+                              <a href="http://www.google.cl" target="blank_">
+                                <img src="images/project/proyecto_noqueria2.png" class="img-fluid image" alt="project image">
+                                <div class="normal">
+                                  <div class="text"></div>
+                                </div>
+                                <div class="hover">
+                                  <div class="text">Ver más</div>
+                                </div>
+                              </a>
+                            </div>
                           </div>
                         </div>
 
@@ -179,7 +225,7 @@
                              </div>
                              <div class="timeline-info">
                                   <h3><span>Front-End Developer</span><small>DesafíoLatam</small></h3>
-                                  <p>Please tell need your support.</p>
+                                  <p>Luego de 6 meses, completé exitosamente el Bootcamp, abriendome camino en una nueva area de desarrollo laboral.</p>
                              </div>
                         </div>
 
@@ -189,7 +235,7 @@
                             </div>
                             <div class="timeline-info">
                                 <h3><span>Actuación</span><small>Pontificia Universidad Católica de Chile</small></h3>
-                                <p> a great website to download HTML templates without any login or email.</p>
+                                <p>Licenciada en Actuación. Aprendí una nueva forma de entender y relacionarme con mi entorno. Así mismo me capacité para lograr adaptarme eficientemente a diferentes situaciones.</p>
                             </div>
                         </div>
 
@@ -200,11 +246,23 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact py-5" id="skills">
+    <!-- CONTACT 
+    <section class="contact py-5" id="contact">
       <div class="container">
         <div class="row">
+
           <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">Say hello</h3>
+                  <p class="footer-text mb-0">010 020 0960</p>
+                  <p><a href="mailto:hello@company.co">hello@company.co</a></p>
+                </div>
+
                 <ul class="social-links">
                      <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left" title="Dribbble"></a></li>
                      <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
@@ -212,18 +270,96 @@
                 </ul>
             </div>
           </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+              <form action="" method="post">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
         </div>
       </div>
+    </section> -->
+    
+    <section id="skills" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="mb-5">Skills</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="mb-4">Front-End Developer</h3>
+            <div class="graph-cont">
+              <div class="bar bar1">HTML5</div>
+              <div class="bar bar2">CSS3</div>
+              <div class="bar bar3">Bootstrap</div>
+              <div class="bar bar4">JS</div>
+              <div class="bar bar5">JQuery</div>
+              <div class="bar bar6">WordPress</div>
+              <div class="bar bar7">Git</div>
+              
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h3 class="mb-4">Otras habilidades</h3>
+              <div class="graph-cont">
+                <div class="bar bar13">English</div>
+                <div class="bar bar8">Abobe Photoshop</div>
+                <div class="bar bar9">Capacidad Investigativa</div>
+                <div class="bar bar10">Resolución creativa de Problemas</div>
+                <div class="bar bar11">Oratoria</div>
+                <div class="bar bar12">React</div>
+              </div>
+            </div>
+        </div>
+      </div>
+
     </section>
 
     <!-- FOOTER -->
-     <footer class="footer py-5">
+     <footer class="footer py-5 text-center">
           <div class="container">
                <div class="row">
 
                     <div class="col-lg-12 col-12">
-                        <p class="copyright-text text-center">Copyright &copy; 2019 Company Name . All rights reserved</p>
-                        <p class="copyright-text text-center">Designed by <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
+                      <h6>¡Contáctame!</h6>
+                        
+                        <ul class="social-links">
+                            <li class="escondido-mobile"><a href="#" data-toggle="tooltip" data-placement="top" title="gvargas2@uc.cl"><i class="far fa-envelope"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/gabrielavargastorresfrontend/" target="blank_" data-toggle="tooltip" data-placement="top" title="Gabriela Vargas Torres"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="escondido-mobile"><a href="#" data-toggle="tooltip" data-placement="top" title="+569 83404424"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href="https://github.com/gvargas2" target="blank_" data-toggle="tooltip" data-placement="top" title="Github"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://bitbucket.org/%7B99c8cfc1-ea6a-4d83-9419-706b5f4f491e%7D/" target="blank_" data-toggle="tooltip" data-placement="top" title="Bitbucket"><i class="fab fa-bitbucket"></i></a></li>
+                            <li><a href="https://www.instagram.com/soypiniacolada/?hl=es-la" target="blank_" data-toggle="tooltip" data-placement="top" title="@soypiniacolada"><i class="fab fa-instagram"></i></a></li>
+                       </ul>
+
+                       <ul class="social-mobile">
+                          <li class="texto-mobile"><i class="far fa-envelope icono-mobile"></i>gvargas2@uc.cl</li>
+                          <li class="texto-mobile"><i class="fab fa-whatsapp icono-mobile"></i>+569 83404424</li>
+                      </ul>
+
                     </div>
 
                </div>
@@ -231,6 +367,7 @@
      </footer>
 
     <script src="js/jquery-3.3.1.min.js"></script>
+    
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/Headroom.js"></script>
@@ -238,6 +375,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
+
+
 
   </body>
 </html>
