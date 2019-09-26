@@ -918,3 +918,33 @@ pre{
 .mt-4 {
   margin-top: 4rem!important;
 }
+
+/*PROYECTO 2*/
+#icov {
+  background-image: url("../images/project/banner2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  padding: 20px 0;
+}
+.landing-img {
+  border-right: 0.3px solid #000;
+}
+
+/*PROYECTO 3*/
+#personales {
+  background-image: url("../images/project/banner7.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  padding: 20px 0;
+}
+
+/*PROYECTO 4*/
+#noqueria {
+  background-image: url("../images/project/banner4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  padding: 20px 0;
+}
