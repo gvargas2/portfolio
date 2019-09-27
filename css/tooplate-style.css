@@ -954,6 +954,13 @@ pre{
   height: 30vh;
   padding: 20px 0;
 }
+.lista-noqueria {
+  display: list-item;
+  list-style-type: circle;
+}
+.mb-4-noqueria {
+  margin-top: 100px;
+}
 
 /*CV*/
 #cv {
