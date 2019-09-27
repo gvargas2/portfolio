@@ -939,6 +939,9 @@ pre{
   height: 30vh;
   padding: 20px 0;
 }
+#proyecto-personal-body {
+  background-color: #f8f8f8;
+}
 
 /*PROYECTO 4*/
 #noqueria {
@@ -947,4 +950,16 @@ pre{
   background-position: center;
   height: 30vh;
   padding: 20px 0;
+}
+
+/*CV*/
+#cv {
+  background-image: url("../images/project/banner8.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  padding: 20px 0;
+}
+.texto-cv {
+  margin: 70px 0;
 }
