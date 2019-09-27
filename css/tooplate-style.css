@@ -56,6 +56,10 @@ a:hover {
   font-size: 30px;
 }
 
+.icono-name {
+  display: inline-block;
+}
+
 p {
   font-size: 18px;
   font-weight: 300;
