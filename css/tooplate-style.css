@@ -961,6 +961,9 @@ pre{
 .mb-4-noqueria {
   margin-top: 100px;
 }
+.noqueria-img {
+  padding-bottom: 70px;
+}
 
 /*CV*/
 #cv {
